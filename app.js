@@ -50,4 +50,6 @@ const message = (titleMessage, subtitleMessage) => {
   modalMessage.style.visibility = 'visible';
   modalMessage.style.top = '10px';
   modalOpacity.style.visibility = 'visible';
+  
 };
+const degisken='hilal';
