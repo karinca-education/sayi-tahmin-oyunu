@@ -51,3 +51,16 @@ const message = (titleMessage, subtitleMessage) => {
   modalMessage.style.top = '10px';
   modalOpacity.style.visibility = 'visible';
 };
+
+randomInput.addEventListener("keyup",function(event){
+  if(event.keyCode===13){
+    document.getElementById('btn').click();
+  }
+});
+
+predictedInput.addEventListener("keyup",function(event){
+  if(event.keyCode===13){
+    document.getElementById('btn').click();
+  }
+});
+
